@@ -232,7 +232,7 @@ def main():
     
     # Scheduler
     scheduler = ReduceLROnPlateau(
-        optimizer, mode='min', factor=0.1, patience=5, verbose=True
+        optimizer, mode='min', factor=0.1, patience=5
     )
     
     # Metrics tracker
