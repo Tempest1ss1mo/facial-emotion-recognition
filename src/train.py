@@ -8,7 +8,9 @@ Usage:
 
 import os
 import argparse
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
 from datetime import datetime
 
 import torch
